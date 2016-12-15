@@ -22,7 +22,7 @@ const EntityNodeValue = ( nodeType = 'entityNode', additionalValues = {} ) => {
 }
 
 const EntityNode = ( nodeType = 'entityNode', additionalValues = {} ) => {
-  const value = EntityNodeValue( nodeType = 'entityNode', additionalValues = {} )
+  const value = EntityNodeValue( nodeType, additionalValues )
   const children = []
 
   return { value, children }

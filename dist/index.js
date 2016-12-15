@@ -7,7 +7,6 @@ var schema = require('./schema');
 var id = utils.id,
     identifier = utils.identifier;
 
-
 var validator = Validator(schema);
 var t = Validator.mtype(validator);
 
