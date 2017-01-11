@@ -7,6 +7,7 @@ var schema = require('./schema');
 var id = utils.id,
     identifier = utils.identifier;
 
+
 var validator = Validator(schema);
 var t = Validator.mtype(validator);
 
@@ -27,7 +28,7 @@ var EntityNode = function EntityNode() {
   var nodeType = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'entityNode';
   var additionalValues = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
 
-  var value = EntityNodeValue(nodeType = 'entityNode', additionalValues = {});
+  var value = EntityNodeValue(nodeType, additionalValues);
   var children = [];
 
   return { value: value, children: children };
