@@ -4,7 +4,7 @@ const Validator = require( 'mtype-tv4' )
 const utils = require( 'mojule-utils' )
 const schema = require( './schema' )
 
-const { id, identifier } = utils
+const { id } = utils
 
 const validator = Validator( schema )
 const t = Validator.mtype( validator )

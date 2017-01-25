@@ -4,8 +4,7 @@ var Validator = require('mtype-tv4');
 var utils = require('mojule-utils');
 var schema = require('./schema');
 
-var id = utils.id,
-    identifier = utils.identifier;
+var id = utils.id;
 
 
 var validator = Validator(schema);
