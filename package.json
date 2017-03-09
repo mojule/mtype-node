@@ -1,6 +1,6 @@
 {
   "name": "mtype-node",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Object factory with schema validation for default tree nodes used by mojule",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "mocha": "^3.2.0"
   },
   "dependencies": {
-    "mojule-utils": "^0.1.5",
+    "mojule-utils": "^0.1.8",
     "mtype-tv4": "^0.1.4"
   },
   "repository": {

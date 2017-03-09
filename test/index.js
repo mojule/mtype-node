@@ -39,8 +39,6 @@ describe( 'mtype-node', () => {
   it( 'returns instance of mtype.api referencing schema', () => {
     const mtype = Node.mtype
     const types = mtype.types()
-    console.log( types )
-
     assert( types.length == 4 )
     assert( types[ 3 ] === 'parentNode' )
   })
